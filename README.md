@@ -80,3 +80,7 @@ In the `.m` implementation file:
 Essentially, this code is free to use in commercial and non-commercial projects with no attribution necessary.
 
 See the `LICENSE` file for more details.
+
+## Attribution ##
+
+Inspiration for this control from: [PAStepper](https://github.com/mperovic/PAStepper)
