@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/iwasrobbed/RPVerticalStepper"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = 'Rob Phillips'
-  s.source       = { :git => "https://github.com/iwasrobbed/RPVerticalStepper", :tag => "v0.0.1" }
+  s.source       = { :git => "https://github.com/iwasrobbed/RPVerticalStepper.git", :tag => "v0.0.1" }
   s.platform     = :ios, '5.0'
   s.source_files = 'RPVerticalStepper'
   s.resources = "RPVerticalStepper/Stepper Images/*.png"
