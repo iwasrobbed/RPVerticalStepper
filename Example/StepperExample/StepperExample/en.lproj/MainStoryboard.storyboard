@@ -56,24 +56,24 @@
                         </subviews>
                         <color key="backgroundColor" white="0.87839302007299269" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="trailing" secondItem="2sP-kv-1db" secondAttribute="trailing" constant="115" id="0w0-yU-6fa"/>
                             <constraint firstItem="LLP-4o-zl3" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="2Oe-nV-NyZ"/>
-                            <constraint firstItem="a8R-BX-fbe" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="3ib-Fa-Ehd"/>
-                            <constraint firstItem="gYF-MV-hVu" firstAttribute="leading" secondItem="a8R-BX-fbe" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="88V-1O-TPj"/>
                             <constraint firstItem="gYF-MV-hVu" firstAttribute="leading" secondItem="2sP-kv-1db" secondAttribute="leading" type="default" id="DWn-vf-mgN"/>
                             <constraint firstAttribute="trailing" secondItem="cdf-Pk-2o0" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="J2U-sO-I2Q"/>
                             <constraint firstItem="gYF-MV-hVu" firstAttribute="trailing" secondItem="2sP-kv-1db" secondAttribute="trailing" type="default" id="NQj-Ju-Er8"/>
-                            <constraint firstItem="t6N-9m-6l9" firstAttribute="centerY" secondItem="2sP-kv-1db" secondAttribute="centerY" type="default" id="NRh-Ys-WBL"/>
-                            <constraint firstItem="2sP-kv-1db" firstAttribute="leading" secondItem="t6N-9m-6l9" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="Qmb-Ex-U9X"/>
+                            <constraint firstItem="t6N-9m-6l9" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="8" id="PE6-D8-oAV"/>
                             <constraint firstItem="cdf-Pk-2o0" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="20" symbolic="YES" type="default" id="Spi-La-zUz"/>
-                            <constraint firstAttribute="trailing" secondItem="2sP-kv-1db" secondAttribute="trailing" constant="116" id="ZL6-O6-5Sl"/>
+                            <constraint firstItem="2sP-kv-1db" firstAttribute="top" secondItem="3" secondAttribute="top" constant="117" id="Xcy-bV-uON"/>
                             <constraint firstItem="t6N-9m-6l9" firstAttribute="top" secondItem="3" secondAttribute="top" constant="129" id="iBt-I5-mdo"/>
                             <constraint firstAttribute="trailing" secondItem="LLP-4o-zl3" secondAttribute="trailing" constant="20" symbolic="YES" type="default" id="j6Z-Mg-NZU"/>
-                            <constraint firstItem="gYF-MV-hVu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="314" id="ltK-6d-rai"/>
+                            <constraint firstAttribute="bottom" secondItem="2sP-kv-1db" secondAttribute="bottom" constant="367" id="jLn-CS-gyh"/>
+                            <constraint firstItem="gYF-MV-hVu" firstAttribute="top" secondItem="3" secondAttribute="top" constant="318" id="lTb-pd-u9J"/>
+                            <constraint firstAttribute="bottom" secondItem="gYF-MV-hVu" secondAttribute="bottom" constant="167" id="loo-Fj-Cnf"/>
                             <constraint firstAttribute="bottom" secondItem="a8R-BX-fbe" secondAttribute="bottom" constant="186" id="m97-c8-xSz"/>
+                            <constraint firstItem="2sP-kv-1db" firstAttribute="leading" secondItem="3" secondAttribute="leading" constant="170" id="n6d-Zs-QtA"/>
                             <constraint firstItem="LLP-4o-zl3" firstAttribute="top" secondItem="3" secondAttribute="top" constant="207" id="n9u-f8-hY8"/>
-                            <constraint firstItem="2sP-kv-1db" firstAttribute="top" secondItem="3" secondAttribute="top" constant="113" id="poN-Dw-lHa"/>
                             <constraint firstItem="cdf-Pk-2o0" firstAttribute="top" secondItem="3" secondAttribute="top" constant="13" id="q1g-LS-Zy9"/>
-                            <constraint firstAttribute="bottom" secondItem="gYF-MV-hVu" secondAttribute="bottom" constant="171" id="rUF-d1-0u6"/>
+                            <constraint firstItem="t6N-9m-6l9" firstAttribute="trailing" secondItem="a8R-BX-fbe" secondAttribute="trailing" type="default" id="uGy-E9-e93"/>
                         </constraints>
                     </view>
                     <connections>
