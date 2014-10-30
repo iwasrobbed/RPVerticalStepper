@@ -1,6 +1,8 @@
 RPVerticalStepper
 =================
 
+Support this project via Gratipay <a href="https://gratipay.com/iwasrobbed/"><img src="http://img.shields.io/gratipay/iwasrobbed.svg"></a>
+
 ![Stepper Example](https://s3.amazonaws.com/iwasrobbed/open+source/rpverticalstepper.png)
 
 A simple vertical stepper control for iOS that is similar in function to the UIStepper control.  Personally, I think it was short-sighted of Apple to only release a horizontal stepper control, so this was created to remedy that.
