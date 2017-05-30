@@ -44,7 +44,8 @@ float const kRPStepperHeight = kRPStepperTopButtonHeight + kRPStepperBottomButto
 // Called when the RPVerticalStepper control is set up programmatically
 - (id)initWithFrame:(CGRect)frame
 {
-    self = [super initWithFrame:CGRectMake(frame.origin.x, frame.origin.y, kRPStepperWidth, kRPStepperHeight)];
+    //self = [super initWithFrame:CGRectMake(frame.origin.x, frame.origin.y, kRPStepperWidth, kRPStepperHeight)];
+    self = [super initWithFrame: frame];
     if (self) [self setDefaultState];
     return self;
 }
