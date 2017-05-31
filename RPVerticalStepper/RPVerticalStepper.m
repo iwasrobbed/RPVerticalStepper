@@ -94,13 +94,13 @@
     
     // Init the increment button
     incrementButton = [self stepperButtonWithFrame:CGRectMake(0.0, 0.0, kRPStepperWidth, kRPStepperTopButtonHeight)
-                                      bgImageNamed:@" "
+                                      bgImageNamed:@"stepperTopButton.png "
                                         imageNamed:@"stepperPlusSymbol"];
     [self addSubview:incrementButton];
     
     // Init the decrement button
     decrementButton = [self stepperButtonWithFrame:CGRectMake(0.0, kRPStepperTopButtonHeight, kRPStepperWidth, kRPStepperBottomButtonHeight)
-                                      bgImageNamed:@" "
+                                      bgImageNamed:@"stepperTopButton.png "
                                         imageNamed:@"stepperMinusSymbol"];
     [self addSubview:decrementButton];
     
