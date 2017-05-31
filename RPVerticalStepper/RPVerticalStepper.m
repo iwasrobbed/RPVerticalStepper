@@ -44,7 +44,8 @@ float const kRPStepperHeight = kRPStepperTopButtonHeight + kRPStepperBottomButto
 // Called when the RPVerticalStepper control is set up programmatically
 - (id)initWithFrame:(CGRect)frame
 {
-    self = [super initWithFrame:CGRectMake(frame.origin.x, frame.origin.y, kRPStepperWidth, kRPStepperHeight)];
+   
+    self = [super initWithFrame: frame];
     if (self) [self setDefaultState];
     return self;
 }
@@ -158,6 +159,19 @@ float const kRPStepperHeight = kRPStepperTopButtonHeight + kRPStepperBottomButto
     [self sendActionsForControlEvents:UIControlEventValueChanged];
     if ([self.delegate respondsToSelector:@selector(stepperValueDidChange:)])
         [self.delegate stepperValueDidChange:self];
+}
+
+-(void)setInitialValue:(CGFloat)val
+{
+    if (val < _minimumValue)
+        val = _minimumValue;
+    else if (val > _maximumValue)
+        val = _maximumValue;
+    _value = val;
+    
+    // Check if we need to enable/disable a button
+    [ self checkButtonInteraction];
+    
 }
 
 - (void)setAutoRepeatInterval:(CGFloat)autoRepeatInterval
