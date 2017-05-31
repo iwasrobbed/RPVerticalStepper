@@ -111,14 +111,8 @@
 
 -(void)setButtons
 {
-    incrementButton = [self stepperButtonWithFrame:CGRectMake(0.0, 0.0, kRPStepperWidth, kRPStepperTopButtonHeight)
-                                      bgImageNamed:@" "
-                                        imageNamed:@"stepperPlusSymbol"];
-    
-    decrementButton = [self stepperButtonWithFrame:CGRectMake(0.0, kRPStepperTopButtonHeight, kRPStepperWidth, kRPStepperBottomButtonHeight)
-                                      bgImageNamed:@" "
-                                        imageNamed:@"stepperMinusSymbol"];
-    
+    incrementButton = CGRectMake(0.0, 0.0, kRPStepperWidth, kRPStepperTopButtonHeight);    
+    decrementButton = CGRectMake(0.0, kRPStepperTopButtonHeight, kRPStepperWidth, kRPStepperBottomButtonHeight);
 }
 
 #pragma mark - Buttons
