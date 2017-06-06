@@ -184,6 +184,19 @@
         [self.delegate stepperValueDidChange:self];
 }
 
+-(void)setInitialValue:(CGFloat)val
+{
+    if (val < _minimumValue)
+        val = _minimumValue;
+    else if (val > _maximumValue)
+        val = _maximumValue;
+    _value = val;
+    
+    // Check if we need to enable/disable a button
+    [ self checkButtonInteraction];
+    
+}
+
 - (void)setAutoRepeatInterval:(CGFloat)autoRepeatInterval
 {
     if (autoRepeatInterval > 0.0)

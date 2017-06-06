@@ -42,4 +42,6 @@
 @property (nonatomic, assign) BOOL autoRepeat;
 @property (nonatomic, assign) CGFloat autoRepeatInterval;
 
+-(void)setInitialValue:(CGFloat)val;
+
 @end
